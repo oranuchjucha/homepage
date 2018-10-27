@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Spicy+Rice');
 
 $body-font: 'Spicy Rice', cursive;
-
+$font-color: #FF420E;
 body {
   font-family: $body-font;
   min-height: 100vh;
   background-color: #fafafa;
-  color: #262626;
   padding-bottom: 3rem;
   font-size: 10px;
+  color: $font-color;
 }
 
 img {
@@ -101,7 +101,8 @@ img {
 }
 
 .profile-stats {
-    margin-top: 2.3rem;
+  margin-top: 2.3rem;
+  margin-left: -1rem;
 }
 
 .profile-stats li {
@@ -126,7 +127,7 @@ img {
 .profile-real-name,
 .profile-stat-count,
 .profile-edit-btn {
-    font-weight: 600;
+    font-weight: 400;
 }
 
 /* Gallery Section */
